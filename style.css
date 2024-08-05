@@ -42,7 +42,7 @@ h5 {
 .bannerImageNeu {
   background-size: cover;
   background-position: center center;
-  min-height: 100vh;
+  height: 85vh;
 }
 
 .bannerTextWrap {
