@@ -1,0 +1,152 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  /* font-family: "Raleway", sans-serif; */
+  font-weight: 700;
+}
+
+/* navbar */
+
+.navbar-brand img {
+  width: 220px;
+  height: auto;
+}
+
+.navbar .nav-item .nav-link {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.navbar-header {
+  display: contents;
+}
+
+.navbar-toggler {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+} */
+
+/* main-section */
+
+.bannerImageNeu {
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+.bannerTextWrap {
+  height: 400px;
+}
+
+.bannerText {
+  color: #333 !important;
+}
+
+.bannerText a.green {
+  background-color: #28ad4a;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 25px;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.catHover {
+  text-decoration: none;
+}
+
+.catLinksNeu {
+  width: 240px;
+  height: 110px;
+  border: none;
+  margin: 0px 8px;
+  background-color: #48448e;
+  border-radius: 30px;
+}
+
+.catBox {
+  padding: 15px;
+}
+
+.catBox img {
+  max-width: 74px;
+  height: auto;
+  display: inline-block;
+}
+
+.catBox span {
+  display: inline-block;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+}
+
+a.allPrdLink {
+  font-size: 24px !important;
+  display: inline-block;
+  line-height: 60px;
+  background-image: url('https://marketplace.mosip.io/wp-content/themes/mosip/img/prds-arrow.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 340px;
+  margin-top: 20px;
+  padding: 30px 10px;
+  text-decoration: none;
+  color: #0a619d;
+}
+
+@media only screen and (max-width: 767px) {
+  .bannerTextWrap {
+    height: 200px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-collapse .nav-item .nav-link {
+    color: #000;
+  }
+
+  .catLinksNeu {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    border: none;
+    margin: 8px 0px;
+    background-color: #48448e;
+  }
+
+  .catHover {
+    width: 100%;
+  }
+
+  .catBox img {
+    max-width: 50px;
+  }
+
+  .catBox span {
+    font-size: 14px;
+  }
+
+  .navbar-toggler{
+    display: none;
+  }
+}
+
+
+
