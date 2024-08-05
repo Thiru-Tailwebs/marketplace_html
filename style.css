@@ -17,7 +17,7 @@ h5 {
 /* navbar */
 
 .navbar-brand img {
-  width: 220px;
+  width: 180px;
   height: auto;
 }
 
@@ -47,6 +47,11 @@ h5 {
 
 .bannerTextWrap {
   height: 400px;
+}
+
+.band-section {
+  background-color: #005eff;
+  padding: 20px 0px;
 }
 
 .bannerText {
